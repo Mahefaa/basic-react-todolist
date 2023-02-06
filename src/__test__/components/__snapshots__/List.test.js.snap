@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List component is rendered correctly 1`] = `
+<div
+  className="list"
+>
+  <h1
+    className="title"
+  >
+    TODO
+  </h1>
+  <div
+    className="list__items"
+    data-testid="list-TODO"
+  >
+    <div>
+      <input
+        data-testid="TODO-0"
+        onClick={[Function]}
+        type="checkbox"
+        value={0}
+      />
+      <span
+        className="task__name todo"
+      >
+        wash dishes
+      </span>
+    </div>
+    <div>
+      <input
+        data-testid="TODO-1"
+        onClick={[Function]}
+        type="checkbox"
+        value={1}
+      />
+      <span
+        className="task__name todo"
+      >
+        eat dinner
+      </span>
+    </div>
+  </div>
+</div>
+`;

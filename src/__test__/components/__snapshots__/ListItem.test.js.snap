@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem component is rendered correctly should render a task with status done 1`] = `
+<div>
+  <span
+    className="task__name done"
+  >
+    name
+  </span>
+</div>
+`;
+
+exports[`ListItem component is rendered correctly should render a task with status todo 1`] = `
+<div>
+  <input
+    data-testid="TODO-null"
+    onClick={null}
+    type="checkbox"
+    value={null}
+  />
+  <span
+    className="task__name todo"
+  >
+    name
+  </span>
+</div>
+`;

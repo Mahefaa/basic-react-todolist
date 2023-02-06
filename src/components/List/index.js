@@ -18,9 +18,9 @@ export default function List({list, setList, status}) {
         }
     }
     return (
-        <div className={style.list} data-testid = {`list-${status}`}>
+        <div className={style.list}>
             <h1 className={style.title}>{status}</h1>
-            <div className={style.list__items}>
+            <div className={style.list__items} data-testid = {`list-${status}`}>
                 {
                     list.map((task, index) => (
                         task.status === status &&

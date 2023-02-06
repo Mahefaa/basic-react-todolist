@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList component is rendered correctly 1`] = `
+<div
+  className="kanban__board"
+>
+  <span
+    className="input"
+  >
+    <input
+      data-testid="task-input"
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      placeholder="What needs to be done ?"
+      type="text"
+      value=""
+    />
+  </span>
+  <div
+    className="list__container"
+  >
+    <div
+      className="list"
+    >
+      <h1
+        className="title"
+      >
+        TODO
+      </h1>
+      <div
+        className="list__items"
+        data-testid="list-TODO"
+      />
+    </div>
+    <div
+      className="list"
+    >
+      <h1
+        className="title"
+      >
+        DONE
+      </h1>
+      <div
+        className="list__items"
+        data-testid="list-DONE"
+      />
+    </div>
+  </div>
+</div>
+`;
