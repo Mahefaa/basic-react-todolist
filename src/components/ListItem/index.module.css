@@ -1,0 +1,12 @@
+.done {
+    color: #2e913d;
+}
+
+.todo {
+    color: #d42527;
+}
+
+.task__name {
+    text-effect: engrave;
+    font-weight: bolder;
+}
